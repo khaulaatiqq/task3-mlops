@@ -24,4 +24,6 @@ jobs:
           registry: https://index.docker.io/v1/
 
       - name: Build Docker image
-        run: docker buildx build -t khaulaatiq/flaskapp --push 
+        run: docker buildx build -t khaulaatiq/flaskTask --push
+
+# yeh yml file docker hub pe image upload karegi humaray flask wali
